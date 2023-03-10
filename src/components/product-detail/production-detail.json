@@ -1,7 +1,8 @@
 {
   "collectionName": "components_production_detail_production_details",
   "info": {
-    "displayName": "ProductionDetail"
+    "displayName": "ProductionDetail",
+    "description": ""
   },
   "options": {},
   "attributes": {

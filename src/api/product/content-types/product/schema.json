@@ -24,7 +24,7 @@
       "displayName": "MaterialCollection",
       "type": "component",
       "repeatable": true,
-      "component": "wood.material-collection"
+      "component": "material-collection.material-collection"
     },
     "ProductCode": {
       "type": "string",
@@ -99,7 +99,7 @@
       "displayName": "ProductionDetail",
       "type": "component",
       "repeatable": true,
-      "component": "production-detail.production-detail"
+      "component": "product-detail.production-detail"
     },
     "ProductImage": {
       "type": "media",

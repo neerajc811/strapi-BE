@@ -1,7 +1,8 @@
 {
   "collectionName": "components_wood_material_collections",
   "info": {
-    "displayName": "MaterialCollection"
+    "displayName": "MaterialCollection",
+    "description": ""
   },
   "options": {},
   "attributes": {
