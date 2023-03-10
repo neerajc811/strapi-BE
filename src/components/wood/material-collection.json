@@ -1,0 +1,15 @@
+{
+  "collectionName": "components_wood_material_collections",
+  "info": {
+    "displayName": "MaterialCollection"
+  },
+  "options": {},
+  "attributes": {
+    "ProductCode": {
+      "type": "string"
+    },
+    "MatCollectionNm": {
+      "type": "string"
+    }
+  }
+}

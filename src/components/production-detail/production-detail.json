@@ -1,0 +1,21 @@
+{
+  "collectionName": "components_production_detail_production_details",
+  "info": {
+    "displayName": "ProductionDetail"
+  },
+  "options": {},
+  "attributes": {
+    "ProductCode": {
+      "type": "string"
+    },
+    "Material": {
+      "type": "string"
+    },
+    "MaterialFinish": {
+      "type": "string"
+    },
+    "MatNetWeight": {
+      "type": "decimal"
+    }
+  }
+}

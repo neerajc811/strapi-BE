@@ -1,0 +1,21 @@
+{
+  "kind": "collectionType",
+  "collectionName": "mstcategories",
+  "info": {
+    "singularName": "mstcategory",
+    "pluralName": "mstcategories",
+    "displayName": "mstcategory"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "CategoryCode": {
+      "type": "string"
+    },
+    "CategoryName": {
+      "type": "string"
+    }
+  }
+}

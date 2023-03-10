@@ -1,0 +1,21 @@
+{
+  "kind": "collectionType",
+  "collectionName": "mstproducttypes",
+  "info": {
+    "singularName": "mstproducttype",
+    "pluralName": "mstproducttypes",
+    "displayName": "mstproducttype"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "ProductTypeCode": {
+      "type": "string"
+    },
+    "ProductTypeName": {
+      "type": "string"
+    }
+  }
+}

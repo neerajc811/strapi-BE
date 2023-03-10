@@ -1,0 +1,21 @@
+{
+  "kind": "collectionType",
+  "collectionName": "mstfinishes",
+  "info": {
+    "singularName": "mstfinish",
+    "pluralName": "mstfinishes",
+    "displayName": "mstfinish"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "FinishCode": {
+      "type": "string"
+    },
+    "FinishName": {
+      "type": "string"
+    }
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "kind": "collectionType",
+  "collectionName": "mstmaterials",
+  "info": {
+    "singularName": "mstmaterial",
+    "pluralName": "mstmaterials",
+    "displayName": "mstmaterial"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "MaterialCode": {
+      "type": "string"
+    },
+    "MaterialName": {
+      "type": "string"
+    }
+  }
+}

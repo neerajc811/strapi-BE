@@ -1,0 +1,119 @@
+{
+  "kind": "collectionType",
+  "collectionName": "products",
+  "info": {
+    "singularName": "product",
+    "pluralName": "products",
+    "displayName": "Product",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "Category": {
+      "type": "string",
+      "required": true
+    },
+    "ProductType": {
+      "type": "string",
+      "required": true
+    },
+    "MaterialCollection": {
+      "displayName": "MaterialCollection",
+      "type": "component",
+      "repeatable": true,
+      "component": "wood.material-collection"
+    },
+    "ProductCode": {
+      "type": "string",
+      "required": true
+    },
+    "ProductId": {
+      "type": "string"
+    },
+    "ProductName": {
+      "type": "text"
+    },
+    "Description": {
+      "type": "text"
+    },
+    "SizeUnit": {
+      "type": "string"
+    },
+    "Length": {
+      "type": "decimal",
+      "default": 0
+    },
+    "Width": {
+      "type": "decimal",
+      "default": 0
+    },
+    "Height": {
+      "type": "decimal",
+      "default": 0
+    },
+    "Finish": {
+      "type": "string"
+    },
+    "Color": {
+      "type": "string"
+    },
+    "NetWeight": {
+      "type": "float",
+      "default": 0
+    },
+    "GrossWeight": {
+      "type": "float",
+      "default": 0
+    },
+    "HSNCode": {
+      "type": "string"
+    },
+    "SellingPriceCurrency": {
+      "type": "string"
+    },
+    "SellingPriceUnit": {
+      "type": "string"
+    },
+    "SellingPrice": {
+      "type": "decimal",
+      "default": 0
+    },
+    "ProductCost": {
+      "type": "decimal",
+      "default": 0
+    },
+    "SearchKeyword": {
+      "type": "string"
+    },
+    "MOQ": {
+      "type": "biginteger",
+      "default": "0"
+    },
+    "ProductDesigner": {
+      "type": "string"
+    },
+    "ProductionDetail": {
+      "displayName": "ProductionDetail",
+      "type": "component",
+      "repeatable": true,
+      "component": "production-detail.production-detail"
+    },
+    "ProductImage": {
+      "type": "media",
+      "multiple": true,
+      "required": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    },
+    "MadeBy": {
+      "type": "string"
+    }
+  }
+}

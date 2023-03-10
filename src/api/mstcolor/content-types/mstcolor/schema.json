@@ -1,0 +1,21 @@
+{
+  "kind": "collectionType",
+  "collectionName": "mstcolors",
+  "info": {
+    "singularName": "mstcolor",
+    "pluralName": "mstcolors",
+    "displayName": "mstcolor"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "ColorCode": {
+      "type": "string"
+    },
+    "ColorName": {
+      "type": "string"
+    }
+  }
+}
