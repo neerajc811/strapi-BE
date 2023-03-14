@@ -101,7 +101,7 @@
       "repeatable": true,
       "component": "product-detail.production-detail"
     },
-    "ProductImage": {
+    "MultipleImage": {
       "type": "media",
       "multiple": true,
       "required": false,
@@ -114,6 +114,16 @@
     },
     "MadeBy": {
       "type": "string"
+    },
+    "CoverImage": {
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ],
+      "type": "media",
+      "multiple": false
     }
   }
 }
