@@ -12,11 +12,11 @@
   },
   "pluginOptions": {},
   "attributes": {
-    "Category": {
+    "CategoryCode": {
       "type": "string",
       "required": true
     },
-    "ProductType": {
+    "ProductTypeCode": {
       "type": "string",
       "required": true
     },
@@ -54,10 +54,10 @@
       "type": "decimal",
       "default": 0
     },
-    "Finish": {
+    "FinishCode": {
       "type": "string"
     },
-    "Color": {
+    "ColorCode": {
       "type": "string"
     },
     "NetWeight": {
@@ -116,14 +116,36 @@
       "type": "string"
     },
     "CoverImage": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
       "allowedTypes": [
         "images",
         "files",
         "videos",
         "audios"
-      ],
-      "type": "media",
-      "multiple": false
+      ]
+    },
+    "CategoryName": {
+      "type": "string"
+    },
+    "ProductTypeName": {
+      "type": "string"
+    },
+    "cbm": {
+      "type": "float"
+    },
+    "FinishName": {
+      "type": "string"
+    },
+    "ColorName": {
+      "type": "string"
+    },
+    "BuyerName": {
+      "type": "string"
+    },
+    "BuyerSku": {
+      "type": "string"
     }
   }
 }

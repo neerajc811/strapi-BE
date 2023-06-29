@@ -1,0 +1,30 @@
+{
+  "collectionName": "components_bank_detail_bank_details",
+  "info": {
+    "displayName": "Bank_Detail"
+  },
+  "options": {},
+  "attributes": {
+    "bankName": {
+      "type": "string"
+    },
+    "branchName": {
+      "type": "string"
+    },
+    "ifsc_code": {
+      "type": "string"
+    },
+    "accountno": {
+      "type": "string"
+    },
+    "bankaddress": {
+      "type": "text"
+    },
+    "swiftcode": {
+      "type": "string"
+    },
+    "cmpcd": {
+      "type": "string"
+    }
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "kind": "collectionType",
+  "collectionName": "msthscodes",
+  "info": {
+    "singularName": "msthscode",
+    "pluralName": "msthscodes",
+    "displayName": "msthscode"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "hscode": {
+      "type": "string"
+    }
+  }
+}

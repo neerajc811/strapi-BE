@@ -1,0 +1,51 @@
+{
+  "kind": "collectionType",
+  "collectionName": "user_details",
+  "info": {
+    "singularName": "user-detail",
+    "pluralName": "user-details",
+    "displayName": "User_Detail",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "Company_Name": {
+      "type": "string"
+    },
+    "Full_Name": {
+      "type": "text"
+    },
+    "Username": {
+      "type": "string"
+    },
+    "Category": {
+      "type": "string"
+    },
+    "Email_Id": {
+      "type": "string"
+    },
+    "Made_By": {
+      "type": "string"
+    },
+    "MobileNo": {
+      "type": "biginteger"
+    },
+    "UserImage": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    },
+    "Password": {
+      "type": "string"
+    }
+  }
+}

@@ -9,14 +9,20 @@
     "ProductCode": {
       "type": "string"
     },
-    "Material": {
+    "MaterialNm": {
       "type": "string"
     },
-    "MaterialFinish": {
+    "MaterialFinishNm": {
       "type": "string"
     },
     "MatNetWeight": {
       "type": "decimal"
+    },
+    "MaterialCode": {
+      "type": "string"
+    },
+    "MaterialFinishCode": {
+      "type": "string"
     }
   }
 }
