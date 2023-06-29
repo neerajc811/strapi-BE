@@ -1,0 +1,74 @@
+{
+  "kind": "collectionType",
+  "collectionName": "company_details",
+  "info": {
+    "singularName": "company-detail",
+    "pluralName": "company-details",
+    "displayName": "Company_Detail",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "cmpnm": {
+      "type": "string"
+    },
+    "address": {
+      "type": "text"
+    },
+    "country": {
+      "type": "string"
+    },
+    "state": {
+      "type": "string"
+    },
+    "city": {
+      "type": "string"
+    },
+    "pin_no": {
+      "type": "integer"
+    },
+    "reg_type": {
+      "type": "string"
+    },
+    "org_type": {
+      "type": "string"
+    },
+    "faxno": {
+      "type": "string"
+    },
+    "email_id": {
+      "type": "string"
+    },
+    "website": {
+      "type": "string"
+    },
+    "gstno": {
+      "type": "string"
+    },
+    "Bank_Detail": {
+      "displayName": "Bank_Detail",
+      "type": "component",
+      "repeatable": true,
+      "component": "bank-detail.bank-detail"
+    },
+    "cmpcd": {
+      "type": "string"
+    },
+    "madeby": {
+      "type": "string"
+    },
+    "Logo": {
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ],
+      "type": "media",
+      "multiple": false
+    }
+  }
+}

@@ -11,6 +11,9 @@
     },
     "MatCollectionNm": {
       "type": "string"
+    },
+    "MatCollectionCode": {
+      "type": "string"
     }
   }
 }

@@ -1,0 +1,39 @@
+{
+  "kind": "collectionType",
+  "collectionName": "buyer_details",
+  "info": {
+    "singularName": "buyer-detail",
+    "pluralName": "buyer-details",
+    "displayName": "Buyer_Detail"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "buyercode": {
+      "type": "string"
+    },
+    "companynm": {
+      "type": "string"
+    },
+    "buyernm": {
+      "type": "string"
+    },
+    "country": {
+      "type": "string"
+    },
+    "email": {
+      "type": "string"
+    },
+    "address": {
+      "type": "string"
+    },
+    "contactno": {
+      "type": "string"
+    },
+    "merchantnm": {
+      "type": "string"
+    }
+  }
+}

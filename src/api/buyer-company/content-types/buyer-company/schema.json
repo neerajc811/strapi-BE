@@ -1,0 +1,18 @@
+{
+  "kind": "collectionType",
+  "collectionName": "buyer_companies",
+  "info": {
+    "singularName": "buyer-company",
+    "pluralName": "buyer-companies",
+    "displayName": "Buyer_Company"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "companynm": {
+      "type": "string"
+    }
+  }
+}
