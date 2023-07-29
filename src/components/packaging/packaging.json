@@ -1,0 +1,39 @@
+{
+  "collectionName": "components_packaging_packagings",
+  "info": {
+    "displayName": "Packaging"
+  },
+  "options": {},
+  "attributes": {
+    "CartonType": {
+      "type": "string"
+    },
+    "ProductCode": {
+      "type": "string"
+    },
+    "Carton_Unit": {
+      "type": "string"
+    },
+    "Carton_Length": {
+      "type": "decimal"
+    },
+    "Carton_Width": {
+      "type": "decimal"
+    },
+    "Carton_Thick": {
+      "type": "decimal"
+    },
+    "Carton_CBM": {
+      "type": "float"
+    },
+    "Carton_PCS": {
+      "type": "integer"
+    },
+    "Carton_CBMperpc": {
+      "type": "float"
+    },
+    "Carton_GrsWt": {
+      "type": "float"
+    }
+  }
+}

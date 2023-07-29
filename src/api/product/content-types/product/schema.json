@@ -146,6 +146,27 @@
     },
     "BuyerSku": {
       "type": "string"
+    },
+    "Total_CBM": {
+      "type": "float"
+    },
+    "Total_CFT": {
+      "type": "float"
+    },
+    "TwentyFT": {
+      "type": "string"
+    },
+    "FortyFT": {
+      "type": "string"
+    },
+    "FortyHQ": {
+      "type": "string"
+    },
+    "Packaging": {
+      "displayName": "Packaging",
+      "type": "component",
+      "repeatable": true,
+      "component": "packaging.packaging"
     }
   }
 }

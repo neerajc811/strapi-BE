@@ -1,0 +1,33 @@
+{
+  "kind": "collectionType",
+  "collectionName": "catalogues",
+  "info": {
+    "singularName": "catalogue",
+    "pluralName": "catalogues",
+    "displayName": "Catalogue"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "catalogueName": {
+      "type": "string"
+    },
+    "BuyerCompany": {
+      "type": "string"
+    },
+    "BuyerEmail": {
+      "type": "string"
+    },
+    "CatalogueCode": {
+      "type": "string"
+    },
+    "CatalogueProduct": {
+      "displayName": "CatalogueProduct",
+      "type": "component",
+      "repeatable": true,
+      "component": "catalogue-product.catalogue-product"
+    }
+  }
+}
