@@ -1,0 +1,37 @@
+{
+  "kind": "collectionType",
+  "collectionName": "collections",
+  "info": {
+    "singularName": "collection",
+    "pluralName": "collections",
+    "displayName": "Collection",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "CollectionName": {
+      "type": "text"
+    },
+    "BuyerCompany": {
+      "type": "text"
+    },
+    "BuyerEmail": {
+      "type": "text"
+    },
+    "CollectionCode": {
+      "type": "string"
+    },
+    "CollectionProduct": {
+      "displayName": "CollectionProduct",
+      "type": "component",
+      "repeatable": true,
+      "component": "collection-product.collection-product"
+    },
+    "BuyerName": {
+      "type": "text"
+    }
+  }
+}

@@ -4,7 +4,8 @@
   "info": {
     "singularName": "catalogue",
     "pluralName": "catalogues",
-    "displayName": "Catalogue"
+    "displayName": "Catalogue",
+    "description": ""
   },
   "options": {
     "draftAndPublish": true
@@ -28,6 +29,9 @@
       "type": "component",
       "repeatable": true,
       "component": "catalogue-product.catalogue-product"
+    },
+    "BuyerName": {
+      "type": "text"
     }
   }
 }

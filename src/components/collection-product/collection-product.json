@@ -1,0 +1,16 @@
+{
+  "collectionName": "components_collection_product_collection_products",
+  "info": {
+    "displayName": "CollectionProduct",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "ColProduct": {
+      "type": "string"
+    },
+    "CollectionCode": {
+      "type": "string"
+    }
+  }
+}
