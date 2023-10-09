@@ -14,7 +14,7 @@
   "attributes": {
     "img": {
       "type": "media",
-      "multiple": true,
+      "multiple": false,
       "required": false,
       "allowedTypes": [
         "images",
@@ -24,6 +24,9 @@
       ]
     },
     "imgid": {
+      "type": "string"
+    },
+    "MainImgId": {
       "type": "string"
     }
   }

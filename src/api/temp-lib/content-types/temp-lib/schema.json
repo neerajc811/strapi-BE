@@ -1,0 +1,21 @@
+{
+  "kind": "collectionType",
+  "collectionName": "temp_libs",
+  "info": {
+    "singularName": "temp-lib",
+    "pluralName": "temp-libs",
+    "displayName": "Temp_Lib"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "Temp_Name": {
+      "type": "string"
+    },
+    "Temp_Buyer": {
+      "type": "string"
+    }
+  }
+}

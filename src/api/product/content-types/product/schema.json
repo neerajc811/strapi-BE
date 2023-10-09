@@ -167,6 +167,15 @@
       "type": "component",
       "repeatable": true,
       "component": "packaging.packaging"
+    },
+    "Variant_Id": {
+      "type": "string"
+    },
+    "Product_Remark": {
+      "type": "text"
+    },
+    "Buyer_Remark": {
+      "type": "text"
     }
   }
 }
