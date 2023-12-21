@@ -4,7 +4,8 @@
   "info": {
     "singularName": "buyer-detail",
     "pluralName": "buyer-details",
-    "displayName": "Buyer_Detail"
+    "displayName": "Buyer_Detail",
+    "description": ""
   },
   "options": {
     "draftAndPublish": true
@@ -34,6 +35,10 @@
     },
     "merchantnm": {
       "type": "string"
+    },
+    "CountrySelect": {
+      "type": "customField",
+      "customField": "plugin::country-select.country"
     }
   }
 }

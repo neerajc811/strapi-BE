@@ -1,0 +1,42 @@
+{
+  "kind": "collectionType",
+  "collectionName": "client_enquiries",
+  "info": {
+    "singularName": "client-enquiry",
+    "pluralName": "client-enquiries",
+    "displayName": "ClientEnquiry"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "TypeCode": {
+      "type": "string"
+    },
+    "Type": {
+      "type": "string"
+    },
+    "buyername": {
+      "type": "string"
+    },
+    "buyercode": {
+      "type": "string"
+    },
+    "enqcd": {
+      "type": "string"
+    },
+    "Comment": {
+      "type": "text"
+    },
+    "query": {
+      "type": "string"
+    },
+    "EnquiryProduct": {
+      "displayName": "EnquiryProduct",
+      "type": "component",
+      "repeatable": true,
+      "component": "enquiry-product.enquiry-product"
+    }
+  }
+}

@@ -32,6 +32,13 @@
     },
     "BuyerName": {
       "type": "text"
+    },
+    "Status": {
+      "type": "string",
+      "default": "Active"
+    },
+    "CreateBy": {
+      "type": "string"
     }
   }
 }

@@ -1,0 +1,21 @@
+{
+  "collectionName": "components_enquiry_product_enquiry_products",
+  "info": {
+    "displayName": "EnquiryProduct"
+  },
+  "options": {},
+  "attributes": {
+    "Prdcd": {
+      "type": "string"
+    },
+    "remark": {
+      "type": "string"
+    },
+    "enqcd": {
+      "type": "string"
+    },
+    "BuyerPrice": {
+      "type": "string"
+    }
+  }
+}

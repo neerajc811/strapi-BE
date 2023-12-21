@@ -1,0 +1,22 @@
+{
+  "collectionName": "components_quotation_product_quotation_products",
+  "info": {
+    "displayName": "QuotationProduct",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "QuotationCode": {
+      "type": "string"
+    },
+    "QuotationProductcode": {
+      "type": "string"
+    },
+    "Price": {
+      "type": "decimal"
+    },
+    "MOQ": {
+      "type": "integer"
+    }
+  }
+}

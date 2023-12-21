@@ -16,7 +16,8 @@
     "@strapi/strapi": "4.7.1",
     "better-sqlite3": "8.0.1",
     "dotenv": "^16.0.3",
-    "pg": "^8.10.0"
+    "pg": "^8.10.0",
+    "strapi-plugin-country-select": "^1.0.3"
   },
   "author": {
     "name": "A Strapi developer"
@@ -31,5 +32,6 @@
   "license": "MIT",
   "devDependencies": {
     "cross-env": "^7.0.3"
-  }
+  },
+  "build:win": "cross-env NODE_ENV=production npm run build"
 }

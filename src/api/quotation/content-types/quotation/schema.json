@@ -1,0 +1,40 @@
+{
+  "kind": "collectionType",
+  "collectionName": "quotations",
+  "info": {
+    "singularName": "quotation",
+    "pluralName": "quotations",
+    "displayName": "Quotation",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "QuotationName": {
+      "type": "string"
+    },
+    "Q_BuyerCompany": {
+      "type": "string"
+    },
+    "Q_BuyerName": {
+      "type": "string"
+    },
+    "Q_BuyerEmail": {
+      "type": "string"
+    },
+    "Q_Status": {
+      "type": "string"
+    },
+    "QuotationCode": {
+      "type": "string"
+    },
+    "QuotationProduct": {
+      "displayName": "QuotationProduct",
+      "type": "component",
+      "repeatable": true,
+      "component": "quotation-product.quotation-product"
+    }
+  }
+}

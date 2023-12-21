@@ -1,0 +1,52 @@
+{
+  "kind": "collectionType",
+  "collectionName": "client_logins",
+  "info": {
+    "singularName": "client-login",
+    "pluralName": "client-logins",
+    "displayName": "Client_Login",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "username": {
+      "type": "string"
+    },
+    "password": {
+      "type": "string"
+    },
+    "buyername": {
+      "type": "string"
+    },
+    "Timefrom": {
+      "type": "datetime"
+    },
+    "Timeto": {
+      "type": "datetime"
+    },
+    "merchant": {
+      "type": "string"
+    },
+    "typecode": {
+      "type": "string"
+    },
+    "typename": {
+      "type": "string"
+    },
+    "Type": {
+      "type": "string"
+    },
+    "Status": {
+      "type": "string"
+    },
+    "buyercode": {
+      "type": "string"
+    },
+    "client_id": {
+      "type": "string"
+    }
+  }
+}
