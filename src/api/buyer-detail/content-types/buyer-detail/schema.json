@@ -39,6 +39,10 @@
     "CountrySelect": {
       "type": "customField",
       "customField": "plugin::country-select.country"
+    },
+    "dis": {
+      "type": "string",
+      "default": "\"NO\""
     }
   }
 }

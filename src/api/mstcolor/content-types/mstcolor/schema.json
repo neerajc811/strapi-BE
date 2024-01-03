@@ -4,7 +4,8 @@
   "info": {
     "singularName": "mstcolor",
     "pluralName": "mstcolors",
-    "displayName": "mstcolor"
+    "displayName": "mstcolor",
+    "description": ""
   },
   "options": {
     "draftAndPublish": true
@@ -15,6 +16,9 @@
       "type": "string"
     },
     "ColorName": {
+      "type": "string"
+    },
+    "dis": {
       "type": "string"
     }
   }

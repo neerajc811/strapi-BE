@@ -4,7 +4,8 @@
   "info": {
     "singularName": "mstfinish",
     "pluralName": "mstfinishes",
-    "displayName": "mstfinish"
+    "displayName": "mstfinish",
+    "description": ""
   },
   "options": {
     "draftAndPublish": true
@@ -15,6 +16,9 @@
       "type": "string"
     },
     "FinishName": {
+      "type": "string"
+    },
+    "dis": {
       "type": "string"
     }
   }

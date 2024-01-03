@@ -4,7 +4,8 @@
   "info": {
     "singularName": "mstmaterial",
     "pluralName": "mstmaterials",
-    "displayName": "mstmaterial"
+    "displayName": "mstmaterial",
+    "description": ""
   },
   "options": {
     "draftAndPublish": true
@@ -15,6 +16,9 @@
       "type": "string"
     },
     "MaterialName": {
+      "type": "string"
+    },
+    "dis": {
       "type": "string"
     }
   }

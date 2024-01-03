@@ -4,7 +4,8 @@
   "info": {
     "singularName": "msthscode",
     "pluralName": "msthscodes",
-    "displayName": "msthscode"
+    "displayName": "msthscode",
+    "description": ""
   },
   "options": {
     "draftAndPublish": true
@@ -12,6 +13,9 @@
   "pluginOptions": {},
   "attributes": {
     "hscode": {
+      "type": "string"
+    },
+    "dis": {
       "type": "string"
     }
   }

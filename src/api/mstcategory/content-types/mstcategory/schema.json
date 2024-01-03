@@ -4,7 +4,8 @@
   "info": {
     "singularName": "mstcategory",
     "pluralName": "mstcategories",
-    "displayName": "mstcategory"
+    "displayName": "mstcategory",
+    "description": ""
   },
   "options": {
     "draftAndPublish": true
@@ -15,6 +16,9 @@
       "type": "string"
     },
     "CategoryName": {
+      "type": "string"
+    },
+    "dis": {
       "type": "string"
     }
   }

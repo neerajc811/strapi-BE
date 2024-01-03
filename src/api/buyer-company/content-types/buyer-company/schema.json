@@ -4,7 +4,8 @@
   "info": {
     "singularName": "buyer-company",
     "pluralName": "buyer-companies",
-    "displayName": "Buyer_Company"
+    "displayName": "Buyer_Company",
+    "description": ""
   },
   "options": {
     "draftAndPublish": true
@@ -13,6 +14,10 @@
   "attributes": {
     "companynm": {
       "type": "string"
+    },
+    "dis": {
+      "type": "string",
+      "default": "NO"
     }
   }
 }
