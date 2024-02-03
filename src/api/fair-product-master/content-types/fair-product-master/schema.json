@@ -1,0 +1,39 @@
+{
+  "kind": "collectionType",
+  "collectionName": "fair_product_masters",
+  "info": {
+    "singularName": "fair-product-master",
+    "pluralName": "fair-product-masters",
+    "displayName": "fairProductMaster"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "faircode": {
+      "type": "string"
+    },
+    "fairname": {
+      "type": "string"
+    },
+    "prdcd": {
+      "type": "string"
+    },
+    "aliascd": {
+      "type": "string"
+    },
+    "minCost": {
+      "type": "decimal"
+    },
+    "avgCost": {
+      "type": "decimal"
+    },
+    "maxCost": {
+      "type": "decimal"
+    },
+    "currency": {
+      "type": "string"
+    }
+  }
+}

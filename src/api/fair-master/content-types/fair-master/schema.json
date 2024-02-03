@@ -1,0 +1,41 @@
+{
+  "kind": "collectionType",
+  "collectionName": "fair_masters",
+  "info": {
+    "singularName": "fair-master",
+    "pluralName": "fair-masters",
+    "displayName": "FairMaster"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "fairCode": {
+      "type": "string",
+      "required": true,
+      "unique": true
+    },
+    "fairName": {
+      "type": "string"
+    },
+    "sessionFair": {
+      "type": "string"
+    },
+    "fairdays": {
+      "type": "string"
+    },
+    "location": {
+      "type": "string"
+    },
+    "fairstatus": {
+      "type": "string"
+    },
+    "fairStartDate": {
+      "type": "date"
+    },
+    "fairEndDate": {
+      "type": "date"
+    }
+  }
+}

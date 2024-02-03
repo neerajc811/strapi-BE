@@ -1,7 +1,8 @@
 {
   "collectionName": "components_catalogue_product_catalogue_products",
   "info": {
-    "displayName": "CatalogueProduct"
+    "displayName": "CatalogueProduct",
+    "description": ""
   },
   "options": {},
   "attributes": {
@@ -10,6 +11,60 @@
     },
     "CatalogCode": {
       "type": "string"
+    },
+    "catcd": {
+      "type": "string"
+    },
+    "prodtypecd": {
+      "type": "string"
+    },
+    "aliascd": {
+      "type": "string"
+    },
+    "productname": {
+      "type": "string"
+    },
+    "description": {
+      "type": "text"
+    },
+    "unit": {
+      "type": "string"
+    },
+    "len": {
+      "type": "decimal"
+    },
+    "finish": {
+      "type": "string"
+    },
+    "wid": {
+      "type": "decimal"
+    },
+    "thick": {
+      "type": "decimal"
+    },
+    "color": {
+      "type": "string"
+    },
+    "netwgt": {
+      "type": "decimal"
+    },
+    "grswgt": {
+      "type": "decimal"
+    },
+    "saleprice": {
+      "type": "decimal"
+    },
+    "currency": {
+      "type": "string"
+    },
+    "remark": {
+      "type": "text"
+    },
+    "shape": {
+      "type": "string"
+    },
+    "cbm": {
+      "type": "float"
     }
   }
 }

@@ -1,0 +1,21 @@
+{
+  "kind": "collectionType",
+  "collectionName": "currency_masters",
+  "info": {
+    "singularName": "currency-master",
+    "pluralName": "currency-masters",
+    "displayName": "CurrencyMaster"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "currencyname": {
+      "type": "string"
+    },
+    "exchangerate": {
+      "type": "decimal"
+    }
+  }
+}

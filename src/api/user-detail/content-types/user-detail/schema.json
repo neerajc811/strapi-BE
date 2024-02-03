@@ -46,6 +46,57 @@
     },
     "Password": {
       "type": "string"
+    },
+    "SizeEdit": {
+      "type": "string"
+    },
+    "NetWtSH": {
+      "type": "string"
+    },
+    "USDCurr": {
+      "type": "string"
+    },
+    "PriceSH": {
+      "type": "string"
+    },
+    "ColourEdit": {
+      "type": "string"
+    },
+    "SizeSH": {
+      "type": "string"
+    },
+    "MaterialEdit": {
+      "type": "string"
+    },
+    "ColourSH": {
+      "type": "string"
+    },
+    "PriceEdit": {
+      "type": "string"
+    },
+    "GBPCurr": {
+      "type": "string"
+    },
+    "FinishEdit": {
+      "type": "string"
+    },
+    "MoqSH": {
+      "type": "string"
+    },
+    "EUROCurr": {
+      "type": "string"
+    },
+    "FinishSH": {
+      "type": "string"
+    },
+    "INRCurr": {
+      "type": "string"
+    },
+    "MaterialSH": {
+      "type": "string"
+    },
+    "CbmSH": {
+      "type": "string"
     }
   }
 }
