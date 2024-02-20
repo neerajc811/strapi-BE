@@ -1,0 +1,21 @@
+{
+  "kind": "collectionType",
+  "collectionName": "shape_masters",
+  "info": {
+    "singularName": "shape-master",
+    "pluralName": "shape-masters",
+    "displayName": "ShapeMaster"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "ShapeCode": {
+      "type": "string"
+    },
+    "ShapeName": {
+      "type": "string"
+    }
+  }
+}

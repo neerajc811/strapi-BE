@@ -1,0 +1,21 @@
+{
+  "kind": "collectionType",
+  "collectionName": "mst_ptechniques",
+  "info": {
+    "singularName": "mst-ptechnique",
+    "pluralName": "mst-ptechniques",
+    "displayName": "mstPtechnique"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "PTechcode": {
+      "type": "string"
+    },
+    "PTechName": {
+      "type": "string"
+    }
+  }
+}

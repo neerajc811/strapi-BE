@@ -176,6 +176,18 @@
     },
     "Buyer_Remark": {
       "type": "text"
+    },
+    "Shape": {
+      "type": "string"
+    },
+    "Season": {
+      "type": "string"
+    },
+    "P_Technique": {
+      "type": "string"
+    },
+    "SizeRange": {
+      "type": "string"
     }
   }
 }

@@ -1,0 +1,69 @@
+{
+  "kind": "collectionType",
+  "collectionName": "temp_products",
+  "info": {
+    "singularName": "temp-product",
+    "pluralName": "temp-products",
+    "displayName": "Temp_Product"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "P_Id": {
+      "type": "string"
+    },
+    "ProductCode": {
+      "type": "string"
+    },
+    "AliasCode": {
+      "type": "string"
+    },
+    "CatetegoryCode": {
+      "type": "string"
+    },
+    "ProductTypeCode": {
+      "type": "string"
+    },
+    "Unit": {
+      "type": "string"
+    },
+    "len": {
+      "type": "decimal"
+    },
+    "wid": {
+      "type": "decimal"
+    },
+    "height": {
+      "type": "decimal"
+    },
+    "description": {
+      "type": "text"
+    },
+    "productname": {
+      "type": "string"
+    },
+    "finish": {
+      "type": "string"
+    },
+    "color": {
+      "type": "string"
+    },
+    "currency": {
+      "type": "string"
+    },
+    "price": {
+      "type": "decimal"
+    },
+    "netwgt": {
+      "type": "float"
+    },
+    "grosswgt": {
+      "type": "float"
+    },
+    "remark": {
+      "type": "text"
+    }
+  }
+}

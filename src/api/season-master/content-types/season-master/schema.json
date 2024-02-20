@@ -1,0 +1,18 @@
+{
+  "kind": "collectionType",
+  "collectionName": "season_masters",
+  "info": {
+    "singularName": "season-master",
+    "pluralName": "season-masters",
+    "displayName": "SeasonMaster"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "SeasonName": {
+      "type": "string"
+    }
+  }
+}

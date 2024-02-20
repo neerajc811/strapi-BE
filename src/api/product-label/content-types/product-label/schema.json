@@ -1,0 +1,114 @@
+{
+  "kind": "collectionType",
+  "collectionName": "product_labels",
+  "info": {
+    "singularName": "product-label",
+    "pluralName": "product-labels",
+    "displayName": "ProductLabel"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "Category": {
+      "type": "string"
+    },
+    "ProductType": {
+      "type": "string"
+    },
+    "AliasCode": {
+      "type": "string"
+    },
+    "ProductName": {
+      "type": "string"
+    },
+    "Description": {
+      "type": "string"
+    },
+    "Sizeunit": {
+      "type": "string"
+    },
+    "length": {
+      "type": "string"
+    },
+    "width": {
+      "type": "string"
+    },
+    "height": {
+      "type": "string"
+    },
+    "cbm": {
+      "type": "string"
+    },
+    "finish": {
+      "type": "string"
+    },
+    "color": {
+      "type": "string"
+    },
+    "HSN": {
+      "type": "string"
+    },
+    "NetWgt": {
+      "type": "string"
+    },
+    "GrossWgt": {
+      "type": "string"
+    },
+    "MOQ": {
+      "type": "string"
+    },
+    "Currency": {
+      "type": "string"
+    },
+    "CurRate": {
+      "type": "string"
+    },
+    "SalePrice": {
+      "type": "string"
+    },
+    "SalePriceINR": {
+      "type": "string"
+    },
+    "ProductDesigner": {
+      "type": "string"
+    },
+    "MadeBy": {
+      "type": "string"
+    },
+    "ProductRemark": {
+      "type": "string"
+    },
+    "searchKeyword": {
+      "type": "string"
+    },
+    "BuyerName": {
+      "type": "string"
+    },
+    "BuyerSku": {
+      "type": "string"
+    },
+    "BuyerRemark": {
+      "type": "string"
+    },
+    "MaterialName": {
+      "type": "string"
+    },
+    "Shape": {
+      "type": "string"
+    },
+    "Collection": {
+      "type": "string"
+    },
+    "Season": {
+      "type": "string"
+    },
+    "P_Technique": {
+      "type": "string"
+    },
+    "SizeRange": {
+      "type": "string"
+    }
+  }
+}
