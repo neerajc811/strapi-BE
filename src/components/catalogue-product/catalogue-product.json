@@ -65,6 +65,9 @@
     },
     "cbm": {
       "type": "float"
+    },
+    "SizeRange": {
+      "type": "string"
     }
   }
 }

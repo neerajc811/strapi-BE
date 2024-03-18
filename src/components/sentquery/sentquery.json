@@ -1,0 +1,34 @@
+{
+  "collectionName": "components_sentquery_sentqueries",
+  "info": {
+    "displayName": "sentquery",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "typecode": {
+      "type": "string"
+    },
+    "productcode": {
+      "type": "string"
+    },
+    "productid": {
+      "type": "string"
+    },
+    "remark": {
+      "type": "text"
+    },
+    "price": {
+      "type": "decimal"
+    },
+    "query": {
+      "type": "string"
+    },
+    "enqcd": {
+      "type": "string"
+    },
+    "Message": {
+      "type": "text"
+    }
+  }
+}

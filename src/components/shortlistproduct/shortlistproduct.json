@@ -1,0 +1,18 @@
+{
+  "collectionName": "components_shortlistproduct_shortlistproducts",
+  "info": {
+    "displayName": "Shortlistproduct"
+  },
+  "options": {},
+  "attributes": {
+    "typecd": {
+      "type": "string"
+    },
+    "productcode": {
+      "type": "string"
+    },
+    "productid": {
+      "type": "string"
+    }
+  }
+}

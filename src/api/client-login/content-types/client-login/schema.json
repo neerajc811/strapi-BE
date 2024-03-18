@@ -47,6 +47,62 @@
     },
     "client_id": {
       "type": "string"
+    },
+    "byemail": {
+      "type": "boolean"
+    },
+    "bymobile": {
+      "type": "boolean"
+    },
+    "bypassword": {
+      "type": "boolean"
+    },
+    "emailotp": {
+      "type": "boolean"
+    },
+    "mobileotp": {
+      "type": "boolean"
+    },
+    "downloadppt": {
+      "type": "boolean"
+    },
+    "showfilter": {
+      "type": "boolean"
+    },
+    "setasdefault": {
+      "type": "boolean"
+    },
+    "loginemailid": {
+      "displayName": "loginEmailid",
+      "type": "component",
+      "repeatable": true,
+      "component": "login-emailid.login-emailid"
+    },
+    "loginmobile": {
+      "type": "component",
+      "repeatable": true,
+      "component": "loginmobile.loginmobile"
+    },
+    "location": {
+      "type": "string"
+    },
+    "totaltimespent": {
+      "type": "string"
+    },
+    "activeEmail": {
+      "type": "string"
+    },
+    "activemobile": {
+      "type": "string"
+    },
+    "activeUsername": {
+      "type": "string"
+    },
+    "logintime": {
+      "type": "datetime"
+    },
+    "recenttimespent": {
+      "type": "string"
     }
   }
 }

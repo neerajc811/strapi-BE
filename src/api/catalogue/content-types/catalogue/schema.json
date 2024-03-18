@@ -39,6 +39,12 @@
     },
     "CreateBy": {
       "type": "string"
+    },
+    "Glink": {
+      "type": "string"
+    },
+    "LinkStatus": {
+      "type": "string"
     }
   }
 }

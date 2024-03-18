@@ -4,7 +4,8 @@
   "info": {
     "singularName": "client-enquiry",
     "pluralName": "client-enquiries",
-    "displayName": "ClientEnquiry"
+    "displayName": "ClientEnquiry",
+    "description": ""
   },
   "options": {
     "draftAndPublish": true

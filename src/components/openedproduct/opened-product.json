@@ -1,0 +1,18 @@
+{
+  "collectionName": "components_openedproduct_opened_products",
+  "info": {
+    "displayName": "OpenedProduct"
+  },
+  "options": {},
+  "attributes": {
+    "typecode": {
+      "type": "string"
+    },
+    "productcode": {
+      "type": "string"
+    },
+    "productid": {
+      "type": "string"
+    }
+  }
+}

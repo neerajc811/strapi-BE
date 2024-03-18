@@ -1,0 +1,19 @@
+{
+  "collectionName": "components_login_emailid_login_emailids",
+  "info": {
+    "displayName": "loginEmailid",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "typecode": {
+      "type": "string"
+    },
+    "emailid": {
+      "type": "string"
+    },
+    "emailsts": {
+      "type": "boolean"
+    }
+  }
+}

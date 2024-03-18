@@ -1,0 +1,56 @@
+{
+  "kind": "collectionType",
+  "collectionName": "clientactivities",
+  "info": {
+    "singularName": "clientactivity",
+    "pluralName": "clientactivities",
+    "displayName": "clientactivity",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "typecode": {
+      "type": "string"
+    },
+    "location": {
+      "type": "string"
+    },
+    "timespent": {
+      "type": "string"
+    },
+    "loginemail": {
+      "type": "string"
+    },
+    "loginmobile": {
+      "type": "string"
+    },
+    "loginusername": {
+      "type": "string"
+    },
+    "logintime": {
+      "type": "datetime"
+    },
+    "openedproduct": {
+      "type": "component",
+      "repeatable": true,
+      "component": "openedproduct.opened-product"
+    },
+    "shortlistproduct": {
+      "type": "component",
+      "repeatable": true,
+      "component": "shortlistproduct.shortlistproduct"
+    },
+    "sentquery": {
+      "displayName": "sentquery",
+      "type": "component",
+      "repeatable": true,
+      "component": "sentquery.sentquery"
+    },
+    "Queryno": {
+      "type": "string"
+    }
+  }
+}

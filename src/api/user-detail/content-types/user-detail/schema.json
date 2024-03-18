@@ -97,6 +97,105 @@
     },
     "CbmSH": {
       "type": "string"
+    },
+    "MProduct": {
+      "type": "boolean"
+    },
+    "MCatalogue": {
+      "type": "boolean"
+    },
+    "MCollection": {
+      "type": "boolean"
+    },
+    "MQuotation": {
+      "type": "boolean"
+    },
+    "MBuyer": {
+      "type": "boolean"
+    },
+    "MEmarketing": {
+      "type": "boolean"
+    },
+    "PMaster": {
+      "type": "boolean"
+    },
+    "MSTCategory": {
+      "type": "boolean"
+    },
+    "MSTPType": {
+      "type": "boolean"
+    },
+    "MSTCollection": {
+      "type": "boolean"
+    },
+    "MSTFinish": {
+      "type": "boolean"
+    },
+    "MSTColor": {
+      "type": "boolean"
+    },
+    "MSTHSN": {
+      "type": "boolean"
+    },
+    "MSTShape": {
+      "type": "boolean"
+    },
+    "MSTPTechnique": {
+      "type": "boolean"
+    },
+    "MSTProcess": {
+      "type": "boolean"
+    },
+    "MSTMaterial": {
+      "type": "boolean"
+    },
+    "PRDView": {
+      "type": "boolean"
+    },
+    "PRDAdd": {
+      "type": "boolean"
+    },
+    "PRDManage": {
+      "type": "boolean"
+    },
+    "PRDEdit": {
+      "type": "boolean"
+    },
+    "PRDDelete": {
+      "type": "boolean"
+    },
+    "PRDpicdwnld": {
+      "type": "boolean"
+    },
+    "CATcreate": {
+      "type": "boolean"
+    },
+    "CATupdate": {
+      "type": "boolean"
+    },
+    "CATaccessPPT": {
+      "type": "boolean"
+    },
+    "CATLinkSecurity": {
+      "type": "boolean"
+    },
+    "CATShwPrice": {
+      "type": "boolean"
+    },
+    "CATCustomizeTab": {
+      "type": "boolean"
+    },
+    "CATModifySts": {
+      "type": "boolean"
+    },
+    "CATBuyerAct": {
+      "type": "boolean"
+    },
+    "CATControlSet": {
+      "type": "boolean"
+    },
+    "CATDelete": {
+      "type": "boolean"
     }
   }
 }

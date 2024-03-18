@@ -1,0 +1,18 @@
+{
+  "collectionName": "components_loginmobile_loginmobiles",
+  "info": {
+    "displayName": "loginmobile"
+  },
+  "options": {},
+  "attributes": {
+    "typecode": {
+      "type": "string"
+    },
+    "mobileno": {
+      "type": "string"
+    },
+    "mobilests": {
+      "type": "boolean"
+    }
+  }
+}
