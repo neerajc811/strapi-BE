@@ -23,6 +23,7 @@ module.exports = ({ env }) => ({
         provider: 'local',
         providerOptions: {
           limit: 52428800,
+          
         },
       },
     },
