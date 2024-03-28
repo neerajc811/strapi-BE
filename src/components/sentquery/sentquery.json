@@ -29,6 +29,12 @@
     },
     "Message": {
       "type": "text"
+    },
+    "reply": {
+      "type": "text"
+    },
+    "MerchantRemark": {
+      "type": "text"
     }
   }
 }

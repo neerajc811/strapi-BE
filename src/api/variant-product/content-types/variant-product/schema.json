@@ -1,10 +1,10 @@
 {
   "kind": "collectionType",
-  "collectionName": "products",
+  "collectionName": "variant_products",
   "info": {
-    "singularName": "product",
-    "pluralName": "products",
-    "displayName": "Product",
+    "singularName": "variant-product",
+    "pluralName": "variant-products",
+    "displayName": "VariantProduct",
     "description": ""
   },
   "options": {
@@ -13,46 +13,39 @@
   "pluginOptions": {},
   "attributes": {
     "CategoryCode": {
-      "type": "string",
-      "required": true
+      "type": "string"
     },
     "ProductTypeCode": {
-      "type": "string",
-      "required": true
+      "type": "string"
+    },
+    "ProductCode": {
+      "type": "string"
     },
     "MaterialCollection": {
-      "displayName": "MaterialCollection",
       "type": "component",
       "repeatable": true,
       "component": "material-collection.material-collection"
     },
-    "ProductCode": {
-      "type": "string",
-      "required": true
+    "ProductName": {
+      "type": "string"
     },
     "ProductId": {
       "type": "string"
     },
-    "ProductName": {
-      "type": "text"
-    },
     "Description": {
-      "type": "text"
+      "type": "string"
     },
     "SizeUnit": {
       "type": "string"
     },
     "Length": {
-      "type": "decimal",
-      "default": 0
+      "type": "decimal"
     },
     "Width": {
-      "type": "decimal",
-      "default": 0
+      "type": "decimal"
     },
     "Height": {
-      "type": "decimal",
-      "default": 0
+      "type": "decimal"
     },
     "FinishCode": {
       "type": "string"
@@ -60,16 +53,14 @@
     "ColorCode": {
       "type": "string"
     },
-    "NetWeight": {
-      "type": "float",
-      "default": 0
-    },
-    "GrossWeight": {
-      "type": "float",
-      "default": 0
-    },
     "HSNCode": {
       "type": "string"
+    },
+    "NetWeight": {
+      "type": "decimal"
+    },
+    "GrossWeight": {
+      "type": "decimal"
     },
     "SellingPriceCurrency": {
       "type": "string"
@@ -78,25 +69,21 @@
       "type": "string"
     },
     "SellingPrice": {
-      "type": "decimal",
-      "default": 0
+      "type": "decimal"
     },
     "ProductCost": {
-      "type": "decimal",
-      "default": 0
+      "type": "decimal"
     },
     "SearchKeyword": {
       "type": "string"
     },
     "MOQ": {
-      "type": "biginteger",
-      "default": "0"
+      "type": "integer"
     },
     "ProductDesigner": {
       "type": "string"
     },
     "ProductionDetail": {
-      "displayName": "ProductionDetail",
       "type": "component",
       "repeatable": true,
       "component": "product-detail.production-detail"
@@ -112,9 +99,6 @@
         "audios"
       ]
     },
-    "MadeBy": {
-      "type": "string"
-    },
     "CoverImage": {
       "type": "media",
       "multiple": false,
@@ -126,6 +110,9 @@
         "audios"
       ]
     },
+    "MadeBy": {
+      "type": "string"
+    },
     "CategoryName": {
       "type": "string"
     },
@@ -133,7 +120,7 @@
       "type": "string"
     },
     "cbm": {
-      "type": "float"
+      "type": "decimal"
     },
     "FinishName": {
       "type": "string"
@@ -148,10 +135,10 @@
       "type": "string"
     },
     "Total_CBM": {
-      "type": "float"
+      "type": "decimal"
     },
     "Total_CFT": {
-      "type": "float"
+      "type": "decimal"
     },
     "TwentyFT": {
       "type": "string"
@@ -163,7 +150,6 @@
       "type": "string"
     },
     "Packaging": {
-      "displayName": "Packaging",
       "type": "component",
       "repeatable": true,
       "component": "packaging.packaging"
@@ -199,9 +185,6 @@
         "videos",
         "audios"
       ]
-    },
-    "Variant": {
-      "type": "boolean"
     }
   }
 }
