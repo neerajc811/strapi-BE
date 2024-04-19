@@ -1,0 +1,57 @@
+{
+  "collectionName": "components_costing_wood_costing_woods",
+  "info": {
+    "displayName": "CostingWood"
+  },
+  "options": {},
+  "attributes": {
+    "prdcd": {
+      "type": "string"
+    },
+    "prdid": {
+      "type": "string"
+    },
+    "woodmaterial": {
+      "type": "string"
+    },
+    "component": {
+      "type": "string"
+    },
+    "R_L": {
+      "type": "decimal"
+    },
+    "R_W": {
+      "type": "decimal"
+    },
+    "R_T": {
+      "type": "decimal"
+    },
+    "R_Unit": {
+      "type": "string"
+    },
+    "F_L": {
+      "type": "decimal"
+    },
+    "F_W": {
+      "type": "decimal"
+    },
+    "F_T": {
+      "type": "decimal"
+    },
+    "F_Unit": {
+      "type": "string"
+    },
+    "PCS": {
+      "type": "integer"
+    },
+    "CFT": {
+      "type": "decimal"
+    },
+    "woodrate": {
+      "type": "decimal"
+    },
+    "woodamount": {
+      "type": "decimal"
+    }
+  }
+}

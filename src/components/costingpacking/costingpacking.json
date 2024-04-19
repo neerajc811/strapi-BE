@@ -1,0 +1,21 @@
+{
+  "collectionName": "components_costingpacking_costingpackings",
+  "info": {
+    "displayName": "Costingpacking"
+  },
+  "options": {},
+  "attributes": {
+    "prdcd": {
+      "type": "string"
+    },
+    "prdid": {
+      "type": "string"
+    },
+    "packingmaterial": {
+      "type": "string"
+    },
+    "packingcost": {
+      "type": "decimal"
+    }
+  }
+}

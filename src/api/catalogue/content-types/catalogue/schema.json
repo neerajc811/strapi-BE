@@ -45,6 +45,45 @@
     },
     "LinkStatus": {
       "type": "string"
+    },
+    "Cust_Aliascode": {
+      "type": "boolean"
+    },
+    "Cust_Productname": {
+      "type": "boolean"
+    },
+    "Cust_Description": {
+      "type": "boolean"
+    },
+    "Cust_Producttype": {
+      "type": "boolean"
+    },
+    "Cust_Category": {
+      "type": "boolean"
+    },
+    "Cust_Finish": {
+      "type": "boolean"
+    },
+    "Cust_Color": {
+      "type": "boolean"
+    },
+    "Cust_NetWgt": {
+      "type": "boolean"
+    },
+    "Cust_GrsWgt": {
+      "type": "boolean"
+    },
+    "Cust_SalePrice": {
+      "type": "boolean"
+    },
+    "Cust_CBM": {
+      "type": "boolean"
+    },
+    "Cust_Unit": {
+      "type": "boolean"
+    },
+    "Cust_FreeSize": {
+      "type": "boolean"
     }
   }
 }

@@ -4,7 +4,8 @@
   "info": {
     "singularName": "shape-master",
     "pluralName": "shape-masters",
-    "displayName": "ShapeMaster"
+    "displayName": "ShapeMaster",
+    "description": ""
   },
   "options": {
     "draftAndPublish": true
@@ -15,6 +16,9 @@
       "type": "string"
     },
     "ShapeName": {
+      "type": "string"
+    },
+    "dis": {
       "type": "string"
     }
   }

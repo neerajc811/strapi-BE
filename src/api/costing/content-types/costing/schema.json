@@ -1,0 +1,163 @@
+{
+  "kind": "collectionType",
+  "collectionName": "costings",
+  "info": {
+    "singularName": "costing",
+    "pluralName": "costings",
+    "displayName": "Costing",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "costingfor": {
+      "type": "string"
+    },
+    "buyername": {
+      "type": "string"
+    },
+    "costingtype": {
+      "type": "string"
+    },
+    "targetCost": {
+      "type": "decimal"
+    },
+    "Netwgt": {
+      "type": "decimal"
+    },
+    "perkgrate": {
+      "type": "decimal"
+    },
+    "itemcost": {
+      "type": "decimal"
+    },
+    "size": {
+      "type": "decimal"
+    },
+    "rate": {
+      "type": "decimal"
+    },
+    "finishcost": {
+      "type": "decimal"
+    },
+    "accessorycost": {
+      "type": "decimal"
+    },
+    "fittingcost": {
+      "type": "decimal"
+    },
+    "packingcost": {
+      "type": "decimal"
+    },
+    "innercost": {
+      "type": "decimal"
+    },
+    "mastercost": {
+      "type": "decimal"
+    },
+    "shippingcost": {
+      "type": "decimal"
+    },
+    "gstper": {
+      "type": "decimal"
+    },
+    "gstcost": {
+      "type": "decimal"
+    },
+    "testingper": {
+      "type": "decimal"
+    },
+    "testingcost": {
+      "type": "decimal"
+    },
+    "laisonper": {
+      "type": "decimal"
+    },
+    "laisoncost": {
+      "type": "decimal"
+    },
+    "otherper": {
+      "type": "decimal"
+    },
+    "othercost": {
+      "type": "decimal"
+    },
+    "overheadper": {
+      "type": "decimal"
+    },
+    "overheadcost": {
+      "type": "decimal"
+    },
+    "miscper": {
+      "type": "decimal"
+    },
+    "misccost": {
+      "type": "decimal"
+    },
+    "subtotalcost": {
+      "type": "decimal"
+    },
+    "subtotalwohcost": {
+      "type": "decimal"
+    },
+    "totalinr": {
+      "type": "decimal"
+    },
+    "profitper": {
+      "type": "decimal"
+    },
+    "profitcost": {
+      "type": "decimal"
+    },
+    "targetcostUSD": {
+      "type": "decimal"
+    },
+    "costingtypRev": {
+      "type": "integer"
+    },
+    "currencyRate": {
+      "type": "decimal"
+    },
+    "CostingMaterial": {
+      "displayName": "CostingMaterial",
+      "type": "component",
+      "repeatable": true,
+      "component": "costing-material.costing-material"
+    },
+    "ProductId": {
+      "type": "string"
+    },
+    "prdcd": {
+      "type": "string"
+    },
+    "CostingWood": {
+      "displayName": "CostingWood",
+      "type": "component",
+      "repeatable": true,
+      "component": "costing-wood.costing-wood"
+    },
+    "CostingProcess": {
+      "displayName": "CostingProcess",
+      "type": "component",
+      "repeatable": true,
+      "component": "costing-process.costing-process"
+    },
+    "CostingAccessory": {
+      "displayName": "CostingAccessory",
+      "type": "component",
+      "repeatable": true,
+      "component": "costing-accessory.costing-accessory"
+    },
+    "Costingpacking": {
+      "displayName": "Costingpacking",
+      "type": "component",
+      "repeatable": true,
+      "component": "costingpacking.costingpacking"
+    },
+    "overallcost": {
+      "type": "decimal"
+    }
+  }
+}

@@ -1,0 +1,33 @@
+{
+  "collectionName": "components_costing_material_costing_materials",
+  "info": {
+    "displayName": "CostingMaterial"
+  },
+  "options": {},
+  "attributes": {
+    "prdcd": {
+      "type": "string"
+    },
+    "chiefmaterial": {
+      "type": "string"
+    },
+    "unit": {
+      "type": "string"
+    },
+    "wgtqty": {
+      "type": "decimal"
+    },
+    "materialrate": {
+      "type": "decimal"
+    },
+    "batta": {
+      "type": "decimal"
+    },
+    "totalmaterialcost": {
+      "type": "decimal"
+    },
+    "productid": {
+      "type": "string"
+    }
+  }
+}

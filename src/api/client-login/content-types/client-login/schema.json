@@ -103,6 +103,9 @@
     },
     "recenttimespent": {
       "type": "string"
+    },
+    "SlideShow": {
+      "type": "boolean"
     }
   }
 }

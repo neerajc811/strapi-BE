@@ -1,0 +1,21 @@
+{
+  "collectionName": "components_costing_accessory_costing_accessories",
+  "info": {
+    "displayName": "CostingAccessory"
+  },
+  "options": {},
+  "attributes": {
+    "prdcd": {
+      "type": "string"
+    },
+    "prdid": {
+      "type": "string"
+    },
+    "materialname": {
+      "type": "string"
+    },
+    "matcost": {
+      "type": "decimal"
+    }
+  }
+}
