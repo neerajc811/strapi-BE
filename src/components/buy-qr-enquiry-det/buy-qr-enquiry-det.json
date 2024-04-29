@@ -1,0 +1,42 @@
+{
+  "collectionName": "components_buy_qr_enquiry_det_buy_qr_enquiry_dets",
+  "info": {
+    "displayName": "BuyQREnquiry_det",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "enqcd": {
+      "type": "string"
+    },
+    "enqid": {
+      "type": "string"
+    },
+    "prdcd": {
+      "type": "string"
+    },
+    "remark": {
+      "type": "text"
+    },
+    "price": {
+      "type": "string"
+    },
+    "Custom_Code": {
+      "type": "string"
+    },
+    "Custom_Remark": {
+      "type": "text"
+    },
+    "Custom_Img": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    }
+  }
+}

@@ -1,0 +1,46 @@
+{
+  "kind": "collectionType",
+  "collectionName": "buyqrenquiry_dets",
+  "info": {
+    "singularName": "buyqrenquiry-det",
+    "pluralName": "buyqrenquiry-dets",
+    "displayName": "Buyqrenquiry_Det"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "enqcd": {
+      "type": "string"
+    },
+    "enqid": {
+      "type": "string"
+    },
+    "prdcd": {
+      "type": "string"
+    },
+    "remark": {
+      "type": "string"
+    },
+    "price": {
+      "type": "string"
+    },
+    "customcode": {
+      "type": "string"
+    },
+    "customremark": {
+      "type": "string"
+    },
+    "Custom_Img": {
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ],
+      "type": "media",
+      "multiple": false
+    }
+  }
+}

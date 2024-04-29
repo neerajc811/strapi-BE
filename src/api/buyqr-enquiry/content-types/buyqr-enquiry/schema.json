@@ -1,0 +1,78 @@
+{
+  "kind": "collectionType",
+  "collectionName": "buyqr_enquiries",
+  "info": {
+    "singularName": "buyqr-enquiry",
+    "pluralName": "buyqr-enquiries",
+    "displayName": "BuyqrEnquiry",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "enqcd": {
+      "type": "string"
+    },
+    "enqid": {
+      "type": "string"
+    },
+    "enqdt": {
+      "type": "date"
+    },
+    "empid": {
+      "type": "string"
+    },
+    "cmpcd": {
+      "type": "string"
+    },
+    "BuyerNm": {
+      "type": "string"
+    },
+    "b_email": {
+      "type": "string"
+    },
+    "b_cmpnyNm": {
+      "type": "string"
+    },
+    "addres": {
+      "type": "text"
+    },
+    "mobileNo": {
+      "type": "string"
+    },
+    "country": {
+      "type": "string"
+    },
+    "phoneNo": {
+      "type": "string"
+    },
+    "B_agency": {
+      "type": "string"
+    },
+    "area": {
+      "type": "string"
+    },
+    "grade": {
+      "type": "string"
+    },
+    "visitimg_pth": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    },
+    "crtdt": {
+      "type": "date"
+    },
+    "Status": {
+      "type": "string"
+    }
+  }
+}
