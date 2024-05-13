@@ -1,0 +1,21 @@
+{
+  "kind": "collectionType",
+  "collectionName": "mstfilters",
+  "info": {
+    "singularName": "mstfilter",
+    "pluralName": "mstfilters",
+    "displayName": "mstfilter"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "FilterName": {
+      "type": "string"
+    },
+    "filterstatus": {
+      "type": "boolean"
+    }
+  }
+}

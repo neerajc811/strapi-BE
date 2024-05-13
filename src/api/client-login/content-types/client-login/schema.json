@@ -109,6 +109,9 @@
     },
     "SmartSearch": {
       "type": "boolean"
+    },
+    "visualProduct": {
+      "type": "boolean"
     }
   }
 }
