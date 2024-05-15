@@ -1,0 +1,21 @@
+{
+  "collectionName": "components_contactdetail_contact_details",
+  "info": {
+    "displayName": "ContactDetail"
+  },
+  "options": {},
+  "attributes": {
+    "cmpcd": {
+      "type": "string"
+    },
+    "Name": {
+      "type": "string"
+    },
+    "mobileno": {
+      "type": "string"
+    },
+    "email": {
+      "type": "string"
+    }
+  }
+}

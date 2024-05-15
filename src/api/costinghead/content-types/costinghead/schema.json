@@ -1,0 +1,30 @@
+{
+  "kind": "collectionType",
+  "collectionName": "costingheads",
+  "info": {
+    "singularName": "costinghead",
+    "pluralName": "costingheads",
+    "displayName": "Costinghead"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "gst": {
+      "type": "decimal"
+    },
+    "laison": {
+      "type": "decimal"
+    },
+    "other": {
+      "type": "decimal"
+    },
+    "testing": {
+      "type": "decimal"
+    },
+    "overhead": {
+      "type": "decimal"
+    }
+  }
+}
