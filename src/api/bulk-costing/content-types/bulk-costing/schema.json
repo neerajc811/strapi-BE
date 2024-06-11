@@ -1,0 +1,328 @@
+{
+  "kind": "collectionType",
+  "collectionName": "bulk_costings",
+  "info": {
+    "singularName": "bulk-costing",
+    "pluralName": "bulk-costings",
+    "displayName": "bulkCosting",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "MaterialName": {
+      "type": "string"
+    },
+    "AlluminiumWt": {
+      "type": "string"
+    },
+    "ThermaPBL": {
+      "type": "decimal"
+    },
+    "ThermaPBW": {
+      "type": "decimal"
+    },
+    "ThermaPBH": {
+      "type": "decimal"
+    },
+    "BaseCostTherma": {
+      "type": "string"
+    },
+    "TPPL": {
+      "type": "decimal"
+    },
+    "TPPW": {
+      "type": "decimal"
+    },
+    "TPPH": {
+      "type": "decimal"
+    },
+    "BaseCostPacking": {
+      "type": "string"
+    },
+    "ThermaCost": {
+      "type": "string"
+    },
+    "Part1L": {
+      "type": "decimal"
+    },
+    "Part1W": {
+      "type": "decimal"
+    },
+    "Part1H": {
+      "type": "decimal"
+    },
+    "Part2L": {
+      "type": "decimal"
+    },
+    "Part2W": {
+      "type": "decimal"
+    },
+    "Part2H": {
+      "type": "decimal"
+    },
+    "Part3L": {
+      "type": "decimal"
+    },
+    "Part3W": {
+      "type": "decimal"
+    },
+    "Part3H": {
+      "type": "decimal"
+    },
+    "WoodCost": {
+      "type": "decimal"
+    },
+    "WBanai": {
+      "type": "decimal"
+    },
+    "WTCost": {
+      "type": "decimal"
+    },
+    "WtenperCharge": {
+      "type": "decimal"
+    },
+    "Wfiveperwastage": {
+      "type": "decimal"
+    },
+    "WTCostWastage": {
+      "type": "decimal"
+    },
+    "MetalWt": {
+      "type": "decimal"
+    },
+    "Bata_Metal": {
+      "type": "decimal"
+    },
+    "MetalCost": {
+      "type": "decimal"
+    },
+    "MetalWastfiveper": {
+      "type": "decimal"
+    },
+    "MetalWatCost": {
+      "type": "decimal"
+    },
+    "GlassWeight": {
+      "type": "decimal"
+    },
+    "GlassRate": {
+      "type": "decimal"
+    },
+    "GlassTCost": {
+      "type": "decimal"
+    },
+    "GlassFreight": {
+      "type": "decimal"
+    },
+    "GlassTCRateFreight": {
+      "type": "decimal"
+    },
+    "GlassWasteFivePer": {
+      "type": "decimal"
+    },
+    "GlassTCWastage": {
+      "type": "decimal"
+    },
+    "GlassTCFlower": {
+      "type": "decimal"
+    },
+    "FinSize": {
+      "type": "string"
+    },
+    "FinRate": {
+      "type": "decimal"
+    },
+    "FinTotal": {
+      "type": "decimal"
+    },
+    "FinEachprPrice": {
+      "type": "decimal"
+    },
+    "FinFivePerWaste": {
+      "type": "decimal"
+    },
+    "FinNoOfBallUse": {
+      "type": "decimal"
+    },
+    "FinTotalCost": {
+      "type": "decimal"
+    },
+    "FinTotall": {
+      "type": "decimal"
+    },
+    "LabNoOfDay": {
+      "type": "decimal"
+    },
+    "LabCost": {
+      "type": "decimal"
+    },
+    "LabWasteFivePer": {
+      "type": "decimal"
+    },
+    "CCML": {
+      "type": "decimal"
+    },
+    "CCMW": {
+      "type": "decimal"
+    },
+    "CCMH": {
+      "type": "decimal"
+    },
+    "CCMC": {
+      "type": "decimal"
+    },
+    "MSI1I": {
+      "type": "string"
+    },
+    "MSI1L": {
+      "type": "decimal"
+    },
+    "MSI1W": {
+      "type": "decimal"
+    },
+    "MSI1H": {
+      "type": "decimal"
+    },
+    "MSI1C": {
+      "type": "decimal"
+    },
+    "MSI2I": {
+      "type": "string"
+    },
+    "MSI2L": {
+      "type": "decimal"
+    },
+    "MSI2W": {
+      "type": "decimal"
+    },
+    "MSI2H": {
+      "type": "decimal"
+    },
+    "MSI2C": {
+      "type": "decimal"
+    },
+    "MSINoCost": {
+      "type": "decimal"
+    },
+    "MSITCostInner": {
+      "type": "decimal"
+    },
+    "MSINofPvc": {
+      "type": "decimal"
+    },
+    "MSINofPvcBox": {
+      "type": "decimal"
+    },
+    "MSINofPvcBoxInner": {
+      "type": "decimal"
+    },
+    "MSITCostInnerr": {
+      "type": "decimal"
+    },
+    "CCPNoFPiece": {
+      "type": "decimal"
+    },
+    "CCPCost": {
+      "type": "decimal"
+    },
+    "CCPCBM": {
+      "type": "decimal"
+    },
+    "FeltSize": {
+      "type": "string"
+    },
+    "FeltRate": {
+      "type": "decimal"
+    },
+    "FeltCost": {
+      "type": "decimal"
+    },
+    "PlateWeight": {
+      "type": "decimal"
+    },
+    "PlateRate": {
+      "type": "decimal"
+    },
+    "PlateCost": {
+      "type": "decimal"
+    },
+    "PPNSize": {
+      "type": "string"
+    },
+    "PPNRate": {
+      "type": "decimal"
+    },
+    "PPNCost": {
+      "type": "decimal"
+    },
+    "PALength": {
+      "type": "decimal"
+    },
+    "PARate": {
+      "type": "decimal"
+    },
+    "PACost": {
+      "type": "decimal"
+    },
+    "NikSize": {
+      "type": "string"
+    },
+    "NikRate": {
+      "type": "decimal"
+    },
+    "NikCost": {
+      "type": "decimal"
+    },
+    "CBNSize": {
+      "type": "string"
+    },
+    "CBNRate": {
+      "type": "decimal"
+    },
+    "CBNCost": {
+      "type": "decimal"
+    },
+    "Bubble": {
+      "type": "string"
+    },
+    "LabForSheet": {
+      "type": "decimal"
+    },
+    "TransCBM": {
+      "type": "decimal"
+    },
+    "TransPPCBM": {
+      "type": "decimal"
+    },
+    "TransCost": {
+      "type": "decimal"
+    },
+    "TransCost_Overhead": {
+      "type": "decimal"
+    },
+    "TotalwithMargin": {
+      "type": "decimal"
+    },
+    "TotalPriceUSD": {
+      "type": "decimal"
+    },
+    "TotalPriceUSD1": {
+      "type": "decimal"
+    },
+    "ProductName": {
+      "type": "string"
+    },
+    "ProductCode": {
+      "type": "string"
+    },
+    "ProductId": {
+      "type": "string"
+    },
+    "Description": {
+      "type": "text"
+    }
+  }
+}
