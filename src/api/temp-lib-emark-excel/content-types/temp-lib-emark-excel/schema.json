@@ -1,0 +1,40 @@
+{
+  "kind": "collectionType",
+  "collectionName": "temp_lib_emark_excels",
+  "info": {
+    "singularName": "temp-lib-emark-excel",
+    "pluralName": "temp-lib-emark-excels",
+    "displayName": "temp-lib-emark-excel"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "Banner": {
+      "type": "string"
+    },
+    "Type": {
+      "type": "string"
+    },
+    "BuyerName": {
+      "type": "string"
+    },
+    "BannerPath": {
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ],
+      "type": "media",
+      "multiple": false
+    },
+    "Body": {
+      "displayName": "Body",
+      "type": "component",
+      "repeatable": true,
+      "component": "bodi.body"
+    }
+  }
+}

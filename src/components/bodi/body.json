@@ -1,0 +1,15 @@
+{
+  "collectionName": "components_bodi_bodies",
+  "info": {
+    "displayName": "Body"
+  },
+  "options": {},
+  "attributes": {
+    "TempName": {
+      "type": "string"
+    },
+    "BuyerName": {
+      "type": "string"
+    }
+  }
+}

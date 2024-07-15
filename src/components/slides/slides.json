@@ -1,0 +1,15 @@
+{
+  "collectionName": "components_slides_slides",
+  "info": {
+    "displayName": "Slides"
+  },
+  "options": {},
+  "attributes": {
+    "TempName": {
+      "type": "string"
+    },
+    "BuyerName": {
+      "type": "string"
+    }
+  }
+}
