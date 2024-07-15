@@ -1,0 +1,53 @@
+{
+  "kind": "collectionType",
+  "collectionName": "temp_lib_emark_pdfs",
+  "info": {
+    "singularName": "temp-lib-emark-pdf",
+    "pluralName": "temp-lib-emark-pdfs",
+    "displayName": "temp-lib-emark-pdf"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "CoverPage": {
+      "type": "string"
+    },
+    "LastPage": {
+      "type": "string"
+    },
+    "Type": {
+      "type": "string"
+    },
+    "BuyerName": {
+      "type": "string"
+    },
+    "CPPath": {
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ],
+      "type": "media",
+      "multiple": false
+    },
+    "LPPath": {
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ],
+      "type": "media",
+      "multiple": false
+    },
+    "Pages": {
+      "displayName": "Pages",
+      "type": "component",
+      "repeatable": true,
+      "component": "page.pages"
+    }
+  }
+}

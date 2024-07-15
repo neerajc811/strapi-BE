@@ -1,0 +1,40 @@
+{
+  "kind": "collectionType",
+  "collectionName": "temp_lib_excels",
+  "info": {
+    "singularName": "temp-lib-excel",
+    "pluralName": "temp-lib-excels",
+    "displayName": "temp-lib-excel"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "Banner": {
+      "type": "string"
+    },
+    "Type": {
+      "type": "string"
+    },
+    "BuyerName": {
+      "type": "string"
+    },
+    "BannerPath": {
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ],
+      "type": "media",
+      "multiple": false
+    },
+    "Body": {
+      "displayName": "Body",
+      "type": "component",
+      "repeatable": true,
+      "component": "body.body"
+    }
+  }
+}

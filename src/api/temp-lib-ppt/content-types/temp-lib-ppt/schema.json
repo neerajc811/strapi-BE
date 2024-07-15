@@ -1,10 +1,10 @@
 {
   "kind": "collectionType",
-  "collectionName": "temp_libs",
+  "collectionName": "temp_lib_ppts",
   "info": {
-    "singularName": "temp-lib",
-    "pluralName": "temp-libs",
-    "displayName": "Temp_Lib",
+    "singularName": "temp-lib-ppt",
+    "pluralName": "temp-lib-ppts",
+    "displayName": "temp-lib-pdf",
     "description": ""
   },
   "options": {
@@ -12,45 +12,45 @@
   },
   "pluginOptions": {},
   "attributes": {
-    "CoverSlide": {
-      "type": "string"
-    },
-    "LastSlide": {
-      "type": "string"
-    },
-    "CSPath": {
-      "type": "media",
-      "multiple": false,
-      "required": false,
-      "allowedTypes": [
-        "images",
-        "files",
-        "videos",
-        "audios"
-      ]
-    },
-    "LSPath": {
-      "type": "media",
-      "multiple": false,
-      "required": false,
-      "allowedTypes": [
-        "images",
-        "files",
-        "videos",
-        "audios"
-      ]
-    },
     "Type": {
       "type": "string"
     },
     "BuyerName": {
       "type": "string"
     },
-    "Slides": {
-      "displayName": "Slides",
+    "CoverPage": {
+      "type": "string"
+    },
+    "LastPage": {
+      "type": "string"
+    },
+    "CPPath": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    },
+    "LPPath": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    },
+    "Pages": {
+      "displayName": "Pages",
       "type": "component",
       "repeatable": true,
-      "component": "slides.slides"
+      "component": "pages.pages"
     }
   }
 }

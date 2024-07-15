@@ -43,6 +43,16 @@
     "dis": {
       "type": "string",
       "default": "\"NO\""
+    },
+    "BuyerImage": {
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ],
+      "type": "media",
+      "multiple": false
     }
   }
 }
