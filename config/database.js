@@ -10,7 +10,7 @@ module.exports = ({ env }) => {
         
         host: env('DATABASE_HOST', 'localhost'),
         port: env.int('DATABASE_PORT', 5432),
-        database: env('DATABASE_NAME', 'UGSales_Testing'),
+        database: env('DATABASE_NAME', 'UGFTW'),
         user: env('DATABASE_USERNAME', 'postgres'),
         password: env('DATABASE_PASSWORD', 'root'),
         

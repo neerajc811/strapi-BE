@@ -18,7 +18,7 @@
     "better-sqlite3": "8.0.1",
     "dotenv": "^16.0.3",
     "nodemailer": "^6.9.7",
-    "pg": "^8.10.0",
+    "pg": "^8.13.0",
     "strapi-plugin-country-select": "^1.0.3"
   },
   "author": {

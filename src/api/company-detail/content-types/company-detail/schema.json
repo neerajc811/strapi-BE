@@ -168,6 +168,9 @@
       "type": "component",
       "repeatable": true,
       "component": "contactdetail.contact-detail"
+    },
+    "Type": {
+      "type": "string"
     }
   }
 }
