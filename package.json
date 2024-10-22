@@ -7,15 +7,16 @@
   "scripts": {
     "develop": "strapi develop",
     "start": "strapi start",
-    "build": "strapi build",
-    "strapi": "strapi"
+    "build": "npm install --build-from-source",
+    "strapi": "strapi",
+    "postinstall": "npm rebuild better-sqlite3"
   },
   "dependencies": {
     "@strapi/plugin-i18n": "4.7.1",
     "@strapi/plugin-users-permissions": "4.7.1",
     "@strapi/provider-email-nodemailer": "^4.16.2",
     "@strapi/strapi": "4.7.1",
-    "better-sqlite3": "8.0.1",
+    "better-sqlite3": "^11.5.0",
     "dotenv": "^16.0.3",
     "nodemailer": "^6.9.7",
     "pg": "^8.13.0",
