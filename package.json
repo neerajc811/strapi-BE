@@ -9,7 +9,7 @@
     "start": "strapi start",
     "build": "npm install --build-from-source",
     "strapi": "strapi",
-    "postinstall": "mkdir -p public/uploads && echo 'Uploads directory checked/created' && npm rebuild better-sqlite3"
+    "postinstall": "npm rebuild better-sqlite3"
     
   },
   "dependencies": {
